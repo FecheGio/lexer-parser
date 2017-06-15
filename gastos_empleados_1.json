@@ -1,0 +1,129 @@
+{
+    "MesInformado": "NOVIEMBRE 2016",
+    "CodigoProyecto": "IEA_5400/2013",
+    "Empleados": [
+    {
+      "Nombre": "Winston, Jane",
+      "FechaAlta": "01-01-2009",
+      "Legajo": "44001",
+      "Gastos": [
+        {
+          "Fecha": "02/11/2016",
+          "Descripcion": "Pasajes Aereos",
+          "Monto": 500.34
+        },
+        {
+          "Fecha": "02/11/2016",
+          "Descripcion": "Hotel",
+          "Monto": 200
+        },
+        {
+          "Fecha": "03/11/2016",
+          "Descripcion": "Taxi",
+          "Monto": 100.00
+        },
+        {
+          "Fecha": "13/11/2016",
+          "Descripcion": "Cargos Llamadas Larga Distancia",
+          "Monto": 57.89
+        },
+        {
+          "Fecha": "15/11/2016",
+          "Descripcion": "Almuerzo",
+          "Monto": 82.19
+        },
+        {
+          "Fecha": "16/11/2016",
+          "Descripcion": "Almuerzo",
+          "Monto": 17.89
+        }
+      ]
+    },
+	   {
+      "Nombre": "Hopcrof, John",
+      "FechaAlta": "04-01-2012",
+      "Legajo": "45002",
+      "Gastos": [
+        {
+          "Fecha": "16/11/2016",
+          "Descripcion": "Almuerzo",
+          "Monto": 31.48
+        },
+        {
+          "Fecha": "22/11/2016",
+          "Descripcion": "Compra Articulos Libreria",
+          "Monto": 32.54
+        },
+        {
+          "Fecha": "24/11/2016",
+          "Descripcion": "Taxi",
+          "Monto": 75.00
+        },
+        {
+          "Fecha": "24/11/2016",
+          "Descripcion": "Almuerzo Cliente",
+          "Monto": 36.45
+        },
+        {
+          "Fecha": "30/11/2016",
+          "Descripcion": "Indumentaria Trabajo",
+          "Monto": 750.00
+        }
+      ]
+    },
+	   {
+      "Nombre": "Louden, Kenneth",
+      "FechaAlta": "06-02-2010",
+      "Legajo": "44002",
+      "Gastos": [
+        {
+          "Fecha": "02/11/2016",
+          "Descripcion": "Pasajes Aereos",
+          "Monto": 500.34
+        },
+        {
+          "Fecha": "13/11/2016",
+          "Descripcion": "Cargos Llamadas Larga Distancia",
+          "Monto": 79.95  
+        },
+        {
+          "Fecha": "15/11/2016",
+          "Descripcion": "Combustible",
+          "Monto": 82.19
+        },
+        {
+          "Fecha": "24/11/2016",
+          "Descripcion": "Insumos Impresora",
+          "Monto": 75.00
+        }
+      ]
+    },
+	{
+      "Nombre": "Ghezzi, Jazayeri",
+      "FechaAlta": "06-02-2010",
+      "Legajo": "44003",
+      "Gastos": [
+        {
+          "Fecha": "23/11/2016",
+          "Descripcion": "Pasajes Aereos",
+          "Monto": 1500.49
+        },
+        {
+          "Fecha": "28/11/2016",
+          "Descripcion": "Inscripcion Congreso",
+          "Monto": 57.89
+        },
+        {
+          "Fecha": "25/11/2016",
+          "Descripcion": "Combustible",
+          "Monto": 85.25
+        },
+        {
+          "Fecha": "24/11/2016",
+          "Descripcion": "Bibliografia",
+          "Monto": 45.05
+        }
+      ]
+    }
+  ]
+}

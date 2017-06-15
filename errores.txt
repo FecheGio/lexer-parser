@@ -1,0 +1,418 @@
+JSONGastosEmpleadosLexer.java:2: error: package org.antlr.v4.runtime does not exist
+import org.antlr.v4.runtime.Lexer;
+                           ^
+JSONGastosEmpleadosLexer.java:3: error: package org.antlr.v4.runtime does not exist
+import org.antlr.v4.runtime.CharStream;
+                           ^
+JSONGastosEmpleadosLexer.java:4: error: package org.antlr.v4.runtime does not exist
+import org.antlr.v4.runtime.Token;
+                           ^
+JSONGastosEmpleadosLexer.java:5: error: package org.antlr.v4.runtime does not exist
+import org.antlr.v4.runtime.TokenStream;
+                           ^
+JSONGastosEmpleadosLexer.java:6: error: package org.antlr.v4.runtime does not exist
+import org.antlr.v4.runtime.*;
+^
+JSONGastosEmpleadosLexer.java:7: error: package org.antlr.v4.runtime.atn does not exist
+import org.antlr.v4.runtime.atn.*;
+^
+JSONGastosEmpleadosLexer.java:8: error: package org.antlr.v4.runtime.dfa does not exist
+import org.antlr.v4.runtime.dfa.DFA;
+                               ^
+JSONGastosEmpleadosLexer.java:9: error: package org.antlr.v4.runtime.misc does not exist
+import org.antlr.v4.runtime.misc.*;
+^
+JSONGastosEmpleadosLexer.java:12: error: cannot find symbol
+public class JSONGastosEmpleadosLexer extends Lexer {
+                                              ^
+  symbol: class Lexer
+JSONGastosEmpleadosLexer.java:15: error: cannot find symbol
+	protected static final DFA[] _decisionToDFA;
+	                       ^
+  symbol:   class DFA
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:16: error: cannot find symbol
+	protected static final PredictionContextCache _sharedContextCache =
+	                       ^
+  symbol:   class PredictionContextCache
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:58: error: cannot find symbol
+	public static final Vocabulary VOCABULARY = new VocabularyImpl(_LITERAL_NAMES, _SYMBOLIC_NAMES);
+	                    ^
+  symbol:   class Vocabulary
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:87: error: cannot find symbol
+	public Vocabulary getVocabulary() {
+	       ^
+  symbol:   class Vocabulary
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:92: error: cannot find symbol
+	public JSONGastosEmpleadosLexer(CharStream input) {
+	                                ^
+  symbol:   class CharStream
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:110: error: cannot find symbol
+	public ATN getATN() { return _ATN; }
+	       ^
+  symbol:   class ATN
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:113: error: cannot find symbol
+	public void action(RuleContext _localctx, int ruleIndex, int actionIndex) {
+	                   ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:189: error: cannot find symbol
+	private void OBJETO_ABRE_action(RuleContext _localctx, int actionIndex) {
+	                                ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:196: error: cannot find symbol
+	private void OBJETO_CIERRA_action(RuleContext _localctx, int actionIndex) {
+	                                  ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:203: error: cannot find symbol
+	private void ARREGLO_ABRE_action(RuleContext _localctx, int actionIndex) {
+	                                 ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:210: error: cannot find symbol
+	private void RREGLO_CIERRA_action(RuleContext _localctx, int actionIndex) {
+	                                  ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:217: error: cannot find symbol
+	private void SEPARADOR_NOMBRE_action(RuleContext _localctx, int actionIndex) {
+	                                     ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:224: error: cannot find symbol
+	private void SEPARADOR_VALOR_action(RuleContext _localctx, int actionIndex) {
+	                                    ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:231: error: cannot find symbol
+	private void CADENA_MES_INFORMADO_action(RuleContext _localctx, int actionIndex) {
+	                                         ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:238: error: cannot find symbol
+	private void CADENA_CODIGO_PROYECTO_action(RuleContext _localctx, int actionIndex) {
+	                                           ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:245: error: cannot find symbol
+	private void CADENA_EMPLEADOS_action(RuleContext _localctx, int actionIndex) {
+	                                     ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:252: error: cannot find symbol
+	private void CADENA_NOMBRE_action(RuleContext _localctx, int actionIndex) {
+	                                  ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:259: error: cannot find symbol
+	private void CADENA_FECHA_ALTA_action(RuleContext _localctx, int actionIndex) {
+	                                      ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:266: error: cannot find symbol
+	private void CADENA_LEGAJO_action(RuleContext _localctx, int actionIndex) {
+	                                  ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:273: error: cannot find symbol
+	private void CADENA_GASTOS_action(RuleContext _localctx, int actionIndex) {
+	                                  ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:280: error: cannot find symbol
+	private void CADENA_FECHA_action(RuleContext _localctx, int actionIndex) {
+	                                 ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:287: error: cannot find symbol
+	private void CADENA_DESCRIPCION_action(RuleContext _localctx, int actionIndex) {
+	                                       ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:294: error: cannot find symbol
+	private void CADENA_MONTO_action(RuleContext _localctx, int actionIndex) {
+	                                 ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:301: error: cannot find symbol
+	private void VALOR_MES_INFORMADO_action(RuleContext _localctx, int actionIndex) {
+	                                        ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:308: error: cannot find symbol
+	private void VALOR_CODIGO_PROYECTO_action(RuleContext _localctx, int actionIndex) {
+	                                          ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:315: error: cannot find symbol
+	private void VALOR_NOMBRE_action(RuleContext _localctx, int actionIndex) {
+	                                 ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:322: error: cannot find symbol
+	private void VALOR_FECHA_ALTA_action(RuleContext _localctx, int actionIndex) {
+	                                     ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:329: error: cannot find symbol
+	private void VALOR_LEGAJO_action(RuleContext _localctx, int actionIndex) {
+	                                 ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:336: error: cannot find symbol
+	private void VALOR_FECHA_GASTO_action(RuleContext _localctx, int actionIndex) {
+	                                      ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:343: error: cannot find symbol
+	private void VALOR_MONTO_action(RuleContext _localctx, int actionIndex) {
+	                                ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:350: error: cannot find symbol
+	private void VALOR_DESCRIPCION_action(RuleContext _localctx, int actionIndex) {
+	                                      ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:531: error: cannot find symbol
+	public static final ATN _ATN =
+	                    ^
+  symbol:   class ATN
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:13: error: cannot find symbol
+	static { RuntimeMetaData.checkVersion("4.5.1", RuntimeMetaData.VERSION); }
+	                                               ^
+  symbol:   variable RuntimeMetaData
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:13: error: cannot find symbol
+	static { RuntimeMetaData.checkVersion("4.5.1", RuntimeMetaData.VERSION); }
+	         ^
+  symbol:   variable RuntimeMetaData
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:17: error: cannot find symbol
+		new PredictionContextCache();
+		    ^
+  symbol:   class PredictionContextCache
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:58: error: cannot find symbol
+	public static final Vocabulary VOCABULARY = new VocabularyImpl(_LITERAL_NAMES, _SYMBOLIC_NAMES);
+	                                                ^
+  symbol:   class VocabularyImpl
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:79: error: method does not override or implement a method from a supertype
+	@Override
+	^
+JSONGastosEmpleadosLexer.java:85: error: method does not override or implement a method from a supertype
+	@Override
+	^
+JSONGastosEmpleadosLexer.java:94: error: cannot find symbol
+		_interp = new LexerATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
+		^
+  symbol:   variable _interp
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:94: error: cannot find symbol
+		_interp = new LexerATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
+		              ^
+  symbol:   class LexerATNSimulator
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:97: error: method does not override or implement a method from a supertype
+	@Override
+	^
+JSONGastosEmpleadosLexer.java:100: error: method does not override or implement a method from a supertype
+	@Override
+	^
+JSONGastosEmpleadosLexer.java:103: error: method does not override or implement a method from a supertype
+	@Override
+	^
+JSONGastosEmpleadosLexer.java:106: error: method does not override or implement a method from a supertype
+	@Override
+	^
+JSONGastosEmpleadosLexer.java:109: error: method does not override or implement a method from a supertype
+	@Override
+	^
+JSONGastosEmpleadosLexer.java:112: error: method does not override or implement a method from a supertype
+	@Override
+	^
+JSONGastosEmpleadosLexer.java:116: error: cannot find symbol
+			OBJETO_ABRE_action((RuleContext)_localctx, actionIndex);
+			                    ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:119: error: cannot find symbol
+			OBJETO_CIERRA_action((RuleContext)_localctx, actionIndex);
+			                      ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:122: error: cannot find symbol
+			ARREGLO_ABRE_action((RuleContext)_localctx, actionIndex);
+			                     ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:125: error: cannot find symbol
+			RREGLO_CIERRA_action((RuleContext)_localctx, actionIndex);
+			                      ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:128: error: cannot find symbol
+			SEPARADOR_NOMBRE_action((RuleContext)_localctx, actionIndex);
+			                         ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:131: error: cannot find symbol
+			SEPARADOR_VALOR_action((RuleContext)_localctx, actionIndex);
+			                        ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:134: error: cannot find symbol
+			CADENA_MES_INFORMADO_action((RuleContext)_localctx, actionIndex);
+			                             ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:137: error: cannot find symbol
+			CADENA_CODIGO_PROYECTO_action((RuleContext)_localctx, actionIndex);
+			                               ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:140: error: cannot find symbol
+			CADENA_EMPLEADOS_action((RuleContext)_localctx, actionIndex);
+			                         ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:143: error: cannot find symbol
+			CADENA_NOMBRE_action((RuleContext)_localctx, actionIndex);
+			                      ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:146: error: cannot find symbol
+			CADENA_FECHA_ALTA_action((RuleContext)_localctx, actionIndex);
+			                          ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:149: error: cannot find symbol
+			CADENA_LEGAJO_action((RuleContext)_localctx, actionIndex);
+			                      ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:152: error: cannot find symbol
+			CADENA_GASTOS_action((RuleContext)_localctx, actionIndex);
+			                      ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:155: error: cannot find symbol
+			CADENA_FECHA_action((RuleContext)_localctx, actionIndex);
+			                     ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:158: error: cannot find symbol
+			CADENA_DESCRIPCION_action((RuleContext)_localctx, actionIndex);
+			                           ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:161: error: cannot find symbol
+			CADENA_MONTO_action((RuleContext)_localctx, actionIndex);
+			                     ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:164: error: cannot find symbol
+			VALOR_MES_INFORMADO_action((RuleContext)_localctx, actionIndex);
+			                            ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:167: error: cannot find symbol
+			VALOR_CODIGO_PROYECTO_action((RuleContext)_localctx, actionIndex);
+			                              ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:170: error: cannot find symbol
+			VALOR_NOMBRE_action((RuleContext)_localctx, actionIndex);
+			                     ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:173: error: cannot find symbol
+			VALOR_FECHA_ALTA_action((RuleContext)_localctx, actionIndex);
+			                         ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:176: error: cannot find symbol
+			VALOR_LEGAJO_action((RuleContext)_localctx, actionIndex);
+			                     ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:179: error: cannot find symbol
+			VALOR_FECHA_GASTO_action((RuleContext)_localctx, actionIndex);
+			                          ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:182: error: cannot find symbol
+			VALOR_MONTO_action((RuleContext)_localctx, actionIndex);
+			                    ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:185: error: cannot find symbol
+			VALOR_DESCRIPCION_action((RuleContext)_localctx, actionIndex);
+			                          ^
+  symbol:   class RuleContext
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:304: error: cannot find symbol
+			System.out.println("VALOR_MES_INFORMADO: "+getText());
+			                                           ^
+  symbol:   method getText()
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:311: error: cannot find symbol
+			System.out.println("VALOR_CODIGO_PROYECTO: "+getText());
+			                                             ^
+  symbol:   method getText()
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:318: error: cannot find symbol
+			System.out.println("VALOR_NOMBRE: "+getText());
+			                                    ^
+  symbol:   method getText()
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:325: error: cannot find symbol
+			System.out.println("VALOR_FECHA_ALTA: "+getText());
+			                                        ^
+  symbol:   method getText()
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:332: error: cannot find symbol
+			System.out.println("VALOR_LEGAJO: "+getText());
+			                                    ^
+  symbol:   method getText()
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:339: error: cannot find symbol
+			System.out.println("VALOR_FECHA_GASTO: "+getText());
+			                                         ^
+  symbol:   method getText()
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:346: error: cannot find symbol
+			System.out.println("VALOR_MONTO: "+getText());
+			                                   ^
+  symbol:   method getText()
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:353: error: cannot find symbol
+			System.out.println("VALOR_DESCRIPCION: "+getText());
+			                                         ^
+  symbol:   method getText()
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:532: error: cannot find symbol
+		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
+		    ^
+  symbol:   class ATNDeserializer
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:534: error: cannot find symbol
+		_decisionToDFA = new DFA[_ATN.getNumberOfDecisions()];
+		                     ^
+  symbol:   class DFA
+  location: class JSONGastosEmpleadosLexer
+JSONGastosEmpleadosLexer.java:536: error: cannot find symbol
+			_decisionToDFA[i] = new DFA(_ATN.getDecisionState(i), i);
+			                        ^
+  symbol:   class DFA
+  location: class JSONGastosEmpleadosLexer
+90 errors
