@@ -1,6 +1,6 @@
 grammar JSONGastosEmpleadosParser;
 
-import JSONGastosEmpleadosLexer;
+import JSONGastosEmpleadosLexer2;
 
 @member{
 
@@ -13,7 +13,7 @@ import JSONGastosEmpleadosLexer;
 
 }
 
-programa: obj+;
+programa: obj;
 
 obj:  OBJETO_ABRE
       CADENA_MES_INFORMADO
@@ -24,13 +24,14 @@ obj:  OBJETO_ABRE
       SEPARADOR_NOMBRE
       VALOR_CODIGO_PROYECTO
       SEPARADOR_VALOR
-      empleados+
-      OBJETO_CIERRA;
+      CADENA_EMPLEADOS
+      SEPARADOR_NOMBRE
+      ARREGLO_ABRE
+      (empleados SEPARADOR_VALOR | empleados)+
+      OBJETO_CIERRA
+      ARREGLO_CIERRA;
 
-empleados:  CADENA_EMPLEADOS
-            SEPARADOR_NOMBRE
-            ARREGLO_ABRE
-            OBJETO_ABRE
+empleados:  OBJETO_ABRE
             CADENA_NOMBRE
             SEPARADOR_NOMBRE
             VALOR_NOMBRE
@@ -43,16 +44,15 @@ empleados:  CADENA_EMPLEADOS
             SEPARADOR_NOMBRE
             VALOR_LEGAJO
             SEPARADOR_VALOR
-            gastos
+            CADENA_GASTOS
+            SEPARADOR_NOMBRE
+            ARREGLO_ABRE
+            (gastos SEPARADOR_VALOR | gastos)+
             ARREGLO_CIERRA
-            OBJETO_CIERRA
-            SEPARADOR_VALOR;
+            OBJETO_CIERRA;
 
 
-gastos: CADENA_GASTOS
-        SEPARADOR_NOMBRE
-        ARREGLO_ABRE
-        OBJETO_ABRE
+gastos: OBJETO_ABRE
         CADENA_FECHA
         SEPARADOR_NOMBRE
         VALOR_FECHA_GASTO
@@ -64,5 +64,4 @@ gastos: CADENA_GASTOS
         CADENA_MONTO
         SEPARADOR_NOMBRE
         VALOR_MONTO
-        OBJETO_CIERRA
-        ARREGLO_CIERRA;
+        OBJETO_CIERRA;

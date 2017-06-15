@@ -1,7 +1,7 @@
-lexer grammar JSONGastosEmpleadosLexer;
+lexer grammar JSONGastosEmpleadosLexer2;
 
 // TOKENS ESPECIFICOS DE FORMATO JSON
-OBJETO_ABRE: '{';
+OBJETO_ABRE: '{' {System.out.print("Hola");};
 OBJETO_CIERRA: '}';
 ARREGLO_ABRE: '[';
 ARREGLO_CIERRA: ']';
