@@ -1,14 +1,14 @@
 lexer grammar JSONGastosEmpleadosLexer2;
 
 // TOKENS ESPECIFICOS DE FORMATO JSON
-OBJETO_ABRE: '{' {System.out.print("Hola");};
-OBJETO_CIERRA: '}';
-ARREGLO_ABRE: '[';
-ARREGLO_CIERRA: ']';
-SEPARADOR_NOMBRE: ':';
-SEPARADOR_VALOR: ',';
+OBJETO_ABRE: '{' {System.out.print("{");};
+OBJETO_CIERRA: '}'; {System.out.print("}");};
+ARREGLO_ABRE: '[' {System.out.print("[]");};
+ARREGLO_CIERRA: ']'{System.out.print("[]");};
+SEPARADOR_NOMBRE: ':'{System.out.print(":");};
+SEPARADOR_VALOR: ','{System.out.print(",");};
 //TOKENS DE NOMBRES DE PARES:
-CADENA_MES_INFORMADO: '"' 'MesInformado' '"';
+CADENA_MES_INFORMADO: '"' 'MesInformado' '"'{System.out.print(" \"MesInformado\" ");};
 CADENA_CODIGO_PROYECTO: '"' 'CodigoProyecto' '"';
 CADENA_EMPLEADOS: '"' 'Empleados' '"';
 CADENA_NOMBRE: '"' 'Nombre' '"';
